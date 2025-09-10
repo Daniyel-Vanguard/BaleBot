@@ -22,7 +22,9 @@
 
 ```bash
 composer require yourname/bale-bot-sdk
+```
 نصب دستی
+```
 php
 require_once 'BaleBot.php';
 require_once 'Models.php';
@@ -32,10 +34,10 @@ PHP 7.4 یا بالاتر
 extension curl
 
 extension json
-
+```
 🔧 استفاده سریع
 راه‌اندازی ربات
-php
+```php
 <?php
 require_once 'BaleBot.php';
 
@@ -84,9 +86,10 @@ getChatMembersCount()	تعداد اعضای گروه
 editMessageText()	ویرایش پیام
 deleteMessage()	حذف پیام
 pinChatMessage()	سنجاق کردن پیام
+```
 🎯 مثال‌های پیشرفته
 ربات وب‌هوک
-php
+```php
 <?php
 require_once 'BaleBot.php';
 require_once 'Models.php';
@@ -123,9 +126,10 @@ while (true) {
     sleep(1);
 }
 ?>
+```
 🔄 مدل‌های داده
 کلاس User
-php
+```php
 $user = new User([
     'id' => 123456789,
     'first_name' => 'John',
@@ -136,6 +140,7 @@ php
 $message = new Message($update['message']);
 echo $message->text;
 echo $message->from->first_name;
+```
 🛠️ توسعه و مشارکت
 ساختار پروژه
 text
@@ -145,8 +150,9 @@ src/
 ├── Examples/        # مثال‌های کاربردی
 └── Tests/           # تست‌های واحد
 اجرای تست‌ها
-bash
+```bash
 php tests/BasicTest.php
+```
 راهنمای مشارکت
 Fork پروژه
 
@@ -168,18 +174,19 @@ push به branch
 وب‌هوک	3	✅ کامل
 🚀 استقرار
 روی هاست اشتراکی
-bash
+```bash
 # آپلود فایل‌ها
 scp -r src/* user@server:/path/to/bot/
-
+```
 # تنظیم وب‌هوک
-php set_webhook.php
+```php set_webhook.php
 با Docker
 dockerfile
 FROM php:7.4-cli
 COPY src/ /app/
 WORKDIR /app
 CMD ["php", "bot.php"]
+```
 📝 لایسنس
 این پروژه تحت لایسنس MIT منتشر شده است.
 
