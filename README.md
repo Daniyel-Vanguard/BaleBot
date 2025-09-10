@@ -1,6 +1,6 @@
 # Bale Bot PHP SDK
 
-یک کتابخانه حرفه‌ای و کامل PHP برای توسعه ربات‌های پیام‌رسان بله (Bale.ir)
+یک کتابخانه حرفه‌ای و کامل PHP برای توسعه ربات‌های پیام‌رسان بله
 
 ![PHP Version](https://img.shields.io/badge/PHP-7.4%2B-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
