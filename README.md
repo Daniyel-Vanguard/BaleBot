@@ -59,8 +59,9 @@ $bot->sendPhoto('CHAT_ID', 'https://example.com/photo.jpg', 'توضیح عکس')
 
 // ارسال موقعیت
 $bot->sendLocation('CHAT_ID', 35.6892, 51.3890);
+```
 مدیریت گروه
-php
+```php
 // مسدود کردن کاربر
 $bot->banChatMember('GROUP_ID', 'USER_ID');
 
