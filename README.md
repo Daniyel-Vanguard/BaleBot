@@ -231,7 +231,7 @@ CMD ["php", "bot.php"]
 
 ```text
 MIT License
-Copyright (c) 2025 Your Name
+Copyright (c) 2025 Daniyel
 ```
 
 
