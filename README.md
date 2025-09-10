@@ -221,4 +221,5 @@ v1.0.0 (2025-09-10)
 
 توسعه داده شده با ❤️ برای جامعه فارسی‌زبان
 
-!(https://img.shields.io/badge/Powered%2520by-Bale.ir-blue.svg)
+![Powered%20by
+Po](https://img.shields.io/badge/Powered%2520by-Bale.ir-blue.svg)
