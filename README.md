@@ -21,7 +21,7 @@
 ### نصب via Composer
 
 ```bash
-composer require yourname/bale-bot-sdk
+composer require Daniyel-Vanguard/bale-bot-sdk
 ```
 ## نصب دستی
 ```
