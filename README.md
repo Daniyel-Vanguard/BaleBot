@@ -196,6 +196,7 @@ CMD ["php", "bot.php"]
 این پروژه تحت لایسنس MIT منتشر شده است.
 
 ‍‍‍‍‍‍‍‍‍‍‍```text
+
 MIT License
 Copyright (c) 2025 Your Name
 ```
