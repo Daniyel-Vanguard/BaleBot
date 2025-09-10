@@ -69,9 +69,11 @@ $bot->setChatTitle('GROUP_ID', 'عنوان جدید گروه');
 
 // دریافت اطلاعات گروه
 $groupInfo = $bot->getChat('GROUP_ID');
+```
 📖 مستندات متدها
 متدهای اصلی
 متد	توضیح	پارامترها
+```php
 getMe()	اطلاعات ربات	-
 sendMessage()	ارسال پیام	chat_id, text, reply_markup
 sendPhoto()	ارسال عکس	chat_id, photo, caption
@@ -110,8 +112,9 @@ if ($update->message) {
 
 http_response_code(200);
 ?>
+```
 ربات Long Polling
-php
+```php
 <?php
 $bot = new BaleBot('YOUR_TOKEN');
 $offset = 0;
