@@ -48,8 +48,9 @@ $bot = new BaleBot($token);
 $botInfo = $bot->getMe();
 echo "ربات: " . $botInfo['first_name'] . " (@".$botInfo['username'].")";
 ?>
+```
 ارسال پیام
-php
+```php
 // ارسال پیام متنی
 $bot->sendMessage('CHAT_ID', 'سلام دنیا! 👋');
 
