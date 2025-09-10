@@ -1,0 +1,32 @@
+{
+    "name": "Daniyel-Vanguard/bot-php-sdk",
+    "description": "Complete PHP SDK for Bale Bot API - A powerful library for developing Bale bots",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bale Bot PHP SDK",
+            "email": "hadipishghadam13@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "files": [
+            "BaleBot.php",
+            "Models.php"
+        ]
+    },
+    "keywords": [
+        "bale",
+        "bot",
+        "api",
+        "sdk",
+        "php",
+        "messenger",
+        "telegram"
+    ]
+}
