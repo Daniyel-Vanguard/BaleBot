@@ -242,7 +242,7 @@ Copyright (c) 2025 Your Name
 
 📧 Email: hadipishghadam13@gmail.cpm
 
-💬 Telegram: @RTX5070TI
+💬 Bale: @RTX5070TI
 
 
 ## 📜 تاریخچه نسخه‌ها
