@@ -1,4 +1,5 @@
 # Bale Bot PHP SDK
+<img align="center" src="https://bale.ai/logo/bale_logo.svg?w=32&q=75"/>
 
 یک کتابخانه حرفه‌ای و کامل PHP برای توسعه ربات‌های پیام‌رسان بله
 
